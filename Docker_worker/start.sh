@@ -1,5 +1,9 @@
-cp /etc/hosts ~/hosts.news && sed -i "/invpm27/ s/.*/10.0.20.67\tinvpm27/g" ~/hosts.news &&\
+cp /etc/hosts ~/hosts.news && sed -i "/invpm27/ s/.*//g" ~/hosts.news &&\
 echo '10.0.20.70 master' >> ~/hosts.news;\
+echo '10.0.20.67 invpm27' >> ~/hosts.news;\
+echo '10.0.20.68 invpm28' >> ~/hosts.news;\
+echo '10.0.20.69 invpm29' >> ~/hosts.news;\
+echo '10.0.20.71 invpm31' >> ~/hosts.news;\
 yes | cp  ~/hosts.news /etc/hosts ;
 
 #SPARK_MASTER_HOST acctually is this header,but I wrongly delete S in images
