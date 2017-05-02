@@ -22,3 +22,13 @@ cd ..
 ./run_spark_core.sh
 ```
 
+
+library installed in Spark_core:
+- spark
+- python anaconda 2.7.1x
+- ssh 
+- yum -y groupinstall "X Window System" "Fonts"
+- vim, tmux 
+- git
+- java 1.8
+
